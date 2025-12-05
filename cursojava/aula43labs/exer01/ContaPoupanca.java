@@ -1,0 +1,63 @@
+package com.elenilson.cursojava.aula43labs.exer01;
+
+import java.util.Calendar;
+
+public class ContaPoupanca extends ContaBancaria {
+
+	public ContaPoupanca() {
+	}
+
+	public ContaPoupanca(String nomecliente, String numConta, double saldo, int diaRendimento) {
+		super(nomecliente, numConta, saldo);
+		this.diaRendimento = diaRendimento;
+		// TODO Auto-generated constructor stub
+	}
+
+	private int diaRendimento;
+
+	public int getDiaRendimento() {
+		return diaRendimento;
+	}
+
+	public void setDiaRendimento(int diaRendimento) {
+		this.diaRendimento = diaRendimento;
+	}
+
+	public boolean calcularNovoSaldo(double taxaRendimento) {
+		double valorRendimento = 0;
+		Calendar hoje = Calendar.getInstance();
+
+		if (diaRendimento == hoje.get(Calendar.DAY_OF_MONTH)) {
+			valorRendimento = this.getSaldo() * taxaRendimento;
+			this.setSaldo(this.getSaldo() + valorRendimento);
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public boolean sacar(double saque) {
+		// TODO Auto-generated method stub
+		if ((this.getSaldo() - saque) >= 0) {
+			this.setSaldo(this.getSaldo() - saque);
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public boolean depositar(double deposito) {
+		if (deposito > 0) {
+			this.setSaldo(this.getSaldo() + deposito);
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public String toString() {
+		return "ContaPoupanca [diaRendimento=" + diaRendimento + ", getNomecliente()=" + getNomecliente()
+				+ ", getNumConta()=" + getNumConta() + ", getSaldo()=" + getSaldo() + "]";
+	}
+
+}

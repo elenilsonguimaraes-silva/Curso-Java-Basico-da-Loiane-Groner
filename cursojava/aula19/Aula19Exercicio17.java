@@ -1,0 +1,29 @@
+package com.elenilson.cursojava.aula19;
+
+import java.util.Scanner;
+
+public class Aula19Exercicio17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int[] vetorA = new int[10];
+		int somaMaior35 = 0;
+		
+		System.out.println("Vetor de Idades");
+		for(int i = 0; i < vetorA.length ; i++){
+			System.out.println("Digite a idade do vetorA na posição vetorA[" + i +"]:");
+			vetorA[i] = scan.nextInt();
+		}
+		System.out.println("Aquantidade de idades superiores a 35: ");
+		for(int vet : vetorA) {
+			if(vet > 35) {
+				System.out.print(", " + vet);
+				somaMaior35 ++;
+			}
+		}
+		System.out.println();
+		System.out.println("é igual a: " + somaMaior35);
+	}
+}
