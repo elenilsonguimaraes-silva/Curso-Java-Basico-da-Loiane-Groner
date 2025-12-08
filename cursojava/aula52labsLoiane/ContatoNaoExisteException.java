@@ -1,4 +1,4 @@
-package com.elenilson.cursojava.aula52.labsLoiane;
+package com.elenilson.cursojava.aula52labsLoiane;
 
 public class ContatoNaoExisteException extends Exception{
 	

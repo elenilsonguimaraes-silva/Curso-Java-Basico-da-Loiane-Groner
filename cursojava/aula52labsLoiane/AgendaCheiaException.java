@@ -1,4 +1,4 @@
-package com.elenilson.cursojava.aula52.labs;
+package com.elenilson.cursojava.aula52labsLoiane;
 
 public class AgendaCheiaException extends Exception {
 	
