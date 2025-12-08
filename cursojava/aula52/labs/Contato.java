@@ -47,8 +47,8 @@ public class Contato {
 	}
 
 	private void icrementarContador() {		
-		this.CONTADOR++;
-		this.setIdentificador(this.CONTADOR);
+		Contato.CONTADOR++;
+		this.setIdentificador(Contato.CONTADOR);
 	}
 	
 	public String obterInfo() {

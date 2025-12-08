@@ -73,10 +73,11 @@ public class Teste {
 		int opcao = 4;
 		while (!entradaValida) {
 			System.out.println("Digite a opção desejada:");
-			System.out.println("1: Consultar contato");
-			System.out.println("2: Adicionar contato");
-			System.out.println("3: Consultar Agenda:");
-			System.out.println("4: Sair");
+			System.out.println("1: Consultar contato por numero");
+			System.out.println("2: Consultar contato por nome");
+			System.out.println("3: Adicionar contato");
+			System.out.println("4: Consultar Agenda:");
+			System.out.println("5: Sair");
 
 			try {
 				String entrada = scan.nextLine();

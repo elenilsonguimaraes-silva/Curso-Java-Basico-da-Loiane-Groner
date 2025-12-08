@@ -24,8 +24,6 @@ public class Agenda {
 		}
 	}
 
-	
-	
 	public int consultaContatoPorNome(String nome) throws ContatoNaoExisteException {
 		for(int i= 0; i < contatos.length; i++) {
 			if(contatos[i] != null) {
