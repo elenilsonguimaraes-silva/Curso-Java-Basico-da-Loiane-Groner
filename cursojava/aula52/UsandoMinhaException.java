@@ -1,5 +1,7 @@
 package com.elenilson.cursojava.aula52;
 
+
+
 public class UsandoMinhaException {
 
 	public static void main(String[] args) {
