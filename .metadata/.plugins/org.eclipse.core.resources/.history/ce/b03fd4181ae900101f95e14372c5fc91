@@ -1,0 +1,10 @@
+package com.elenilson.cursojavaintermediario.aula64;
+
+public class Externa2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

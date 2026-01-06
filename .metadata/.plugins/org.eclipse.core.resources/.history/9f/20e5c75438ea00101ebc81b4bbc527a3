@@ -1,0 +1,9 @@
+package com.elenilson.cursojavaintermediario.aula70;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

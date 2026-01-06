@@ -1,0 +1,17 @@
+package com.elenilson.cursojavaintermediario.aula64;
+
+public class Externa {
+	
+	 private String texto = "texto externo";
+	 
+	 public class Interna{
+		 
+		 private String texto = "texto interno";
+	 }
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

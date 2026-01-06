@@ -1,0 +1,36 @@
+package com.elenilson.cursojava.aula43labs.exer01;
+
+public class Exer01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("***Teste ContaBancaria***");
+		
+		ContaPoupanca contaPoupanca = new ContaPoupanca("Elenilson", "12345", 2000);
+		contaPoupanca.toString();
+		contaPoupanca.depositar(1000);
+		System.out.println(contaPoupanca.toString());
+		System.out.println(contaPoupanca.realizarSaque(4000));
+		System.out.println(contaPoupanca.toString());
+		System.out.println(contaPoupanca.realizarSaque(2000));
+		System.out.println(contaPoupanca.toString());
+		System.out.println(contaPoupanca.calcularNovoSaldo(2));
+		System.out.println(contaPoupanca.toString());
+		System.out.println(contaPoupanca.calcularNovoSaldo(10));
+		System.out.println(contaPoupanca.toString());
+		ContaEspecial contaEspecial = new ContaEspecial("João", "123554", 1000);
+		System.out.println(contaEspecial.toString());
+		contaEspecial.setLimite(500);
+		System.out.println(contaEspecial.toString());
+		contaEspecial.sacar(1300);
+		System.out.println(contaEspecial.toString());
+		System.out.println(contaEspecial.realizarSaque(1300));
+		System.out.println(contaEspecial.toString());
+		System.out.println(contaEspecial.realizarSaque(100));
+		System.out.println(contaEspecial.toString());
+		System.out.println(contaEspecial.depositar(5000));
+		System.out.println(contaEspecial.toString());
+	}
+	
+
+}

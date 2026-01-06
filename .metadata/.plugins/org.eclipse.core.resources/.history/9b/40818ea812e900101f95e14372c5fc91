@@ -1,0 +1,14 @@
+package com.elenilson.cursojavaintermediario.aula63;
+
+public class ExemploPrintf {
+
+	public static void main(String[] args) {
+		
+		System.out.printf("%s", "Olá Mundo!");
+		System.out.println();
+		System.out.printf("%S", "Olá Mundo!");
+		System.out.println();
+
+	}
+
+}

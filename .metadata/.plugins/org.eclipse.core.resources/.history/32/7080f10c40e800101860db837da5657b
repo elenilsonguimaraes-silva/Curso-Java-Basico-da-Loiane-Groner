@@ -1,0 +1,20 @@
+package com.elenilson.cursojavaintermediario.aula56labs;
+
+public class Calculadora {
+	
+	enum Operacao{
+		SOMAR("+"), SUBTRAIR("-"), MULTIPLICAR("*"), DIVIDIR("/");
+		
+		
+		private String simbolo;
+		
+		Operacao(String simbolo){
+			this.simbolo = simbolo;
+		}
+		
+		public String toString() {
+			return this.simbolo;
+		}
+	}
+
+}

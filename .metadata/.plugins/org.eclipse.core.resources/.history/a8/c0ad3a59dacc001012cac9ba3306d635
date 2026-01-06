@@ -1,0 +1,56 @@
+package com.elenilson.cursojava.aula43labs.exer01;
+
+public class Exer01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("***Teste ContaBancaria***");
+		
+		ContaPoupanca contaPoupanca = new ContaPoupanca("Elenilson", "22222", 0, 2);
+		contaPoupanca.toString();
+		contaPoupanca.depositar(100);
+		System.out.println(contaPoupanca.toString());
+		System.out.println(realizarSaque(contaPoupanca, 50));
+		System.out.println(contaPoupanca.toString());
+		System.out.println(realizarSaque(contaPoupanca, 70));
+		System.out.println(contaPoupanca.toString());
+		if(contaPoupanca.calcularNovoSaldo(0.5)) {
+			System.out.println("Rendimento aplicado, novo saldo é de = " + contaPoupanca.getSaldo());
+		}else {
+			System.out.println("Hoje não é dia de rendimento, novo saldo não calculado!");
+		}
+		System.out.println(contaPoupanca.toString());
+		
+		System.out.println();
+		ContaEspecial contaEspecial = new ContaEspecial("João", "123554", 1000);
+		System.out.println(contaEspecial.toString());
+		contaEspecial.setLimite(500);
+		System.out.println(contaEspecial.toString());
+		contaEspecial.sacar(1300);
+		System.out.println(contaEspecial.toString());
+		System.out.println(contaEspecial.realizarSaque(1300));
+		System.out.println(contaEspecial.toString());
+		System.out.println(contaEspecial.realizarSaque(100));
+		System.out.println(contaEspecial.toString());
+		System.out.println(contaEspecial.depositar(5000));
+		System.out.println(contaEspecial.toString());
+	}
+	public static String realizarSaque(ContaPoupanca conta, double valorASacar) {
+		if ((conta.getSaldo() - valorASacar) >= 0) {
+			conta.sacar(valorASacar);
+			return "Saque Realizado, novo saldo= " + conta.getSaldo();
+		} else {
+			return "Operação inválida! Saldo insuficiente.";
+		}
+	}
+	public static String realizarSaque(ContaEspecial conta, double valorASacar) {
+		if ((conta.getSaldo() - valorASacar) >= 0) {
+			conta.sacar(valorASacar);
+			return "Saque Realizado, novo saldo= " + conta.getSaldo();
+		} else {
+			return "Operação inválida! Saldo insuficiente.";
+		}
+	}
+	
+
+}

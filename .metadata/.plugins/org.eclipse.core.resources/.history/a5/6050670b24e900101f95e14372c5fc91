@@ -1,0 +1,14 @@
+package com.elenilson.cursojavaintermediario.aula64;
+
+public class Anonima {
+	
+	public void imprimeTexto() {
+		System.out.println("qualquer texto");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

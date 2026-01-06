@@ -1,0 +1,5 @@
+package com.elenilson.cursojavaintermediario.aula67;
+
+public class MinhaThread extends Thread {
+
+}

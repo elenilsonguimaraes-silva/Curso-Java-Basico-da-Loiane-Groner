@@ -1,0 +1,16 @@
+package com.elenilson.aula19;
+
+import java.util.Scanner;
+
+public class Aula19Exercicio18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Vetores:");
+		int[] vetorA = new int[10];
+
+	}
+
+}

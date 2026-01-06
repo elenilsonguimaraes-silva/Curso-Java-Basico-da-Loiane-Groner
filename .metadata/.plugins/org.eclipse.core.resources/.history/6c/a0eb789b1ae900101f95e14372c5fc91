@@ -1,0 +1,22 @@
+package com.elenilson.cursojavaintermediario.aula64;
+
+public class Externa2 {
+	
+	public void metodoQualquer() {
+		
+		class ClassLocal{
+			
+			private String texto = "texto classe local";
+			
+			public void imprimeTexto() {
+				System.out.println(texto);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.elenilson.cursojava.aula42;
+
+public class Constantes {
+	
+	public static final String URL_BLOG = "https://loiane.com";
+	
+	//private String urlBlog;
+
+}

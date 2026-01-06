@@ -1,0 +1,27 @@
+package com.elenilson.aula19;
+
+import java.util.Scanner;
+
+public class Aula19Exercicio16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Vetores:");
+		int[] vetorA = new int[10];
+		int somaSub15 = 0;
+		int SomaIgual15 = 0;
+		int mediaMaior15 = 0;
+		
+		for(int i = 0; i < vetorA.length ; i++){
+			System.out.println("Entre com o valor " + i +"  do vetor A[" + i +"]");
+			vetorA[i] = scan.nextInt();	
+			Switch(vetor[i]) {
+				case 
+			}
+		}
+
+	}
+
+}
