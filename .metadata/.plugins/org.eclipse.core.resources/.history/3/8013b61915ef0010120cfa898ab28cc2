@@ -1,0 +1,13 @@
+package com.elenilson.cursojavaintermediario.aula73;
+
+public class MinhaThread implements Runnable{
+	
+	private String nome;
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,9 +1,0 @@
-package com.elenilson.cursojavaintermediario.aula56labs;
-
-import com.elenilson.cursojavaintermediario.aula56labs.Calculadora.Operacao;
-
-public class TesteCalculadora {
-
-	
-
-}

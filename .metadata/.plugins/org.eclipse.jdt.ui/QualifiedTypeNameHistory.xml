@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula43labs.exer03.Peixe"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula43labs.exer03.Mamifero"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula44.Ave"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula44.Animal"/>
@@ -56,8 +55,9 @@
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula69.MinhaThreadRunnable"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula70.MinhaThreadRunnable"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula71.MinhaThreadSoma"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula72.ThreadTiqueTaque"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula72.TiqueTaque"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula73.MinhaThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

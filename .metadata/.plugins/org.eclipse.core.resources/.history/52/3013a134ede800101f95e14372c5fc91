@@ -1,8 +1,0 @@
-package com.elenilson.cursojavaintermediario.aula62;
-
-public class ExemploVarargs {
-	public static void main(String[] args) {
-		
-	}
-
-}
