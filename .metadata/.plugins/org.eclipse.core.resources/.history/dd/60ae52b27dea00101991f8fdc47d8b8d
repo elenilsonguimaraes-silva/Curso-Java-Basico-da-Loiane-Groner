@@ -1,9 +1,0 @@
-package com.elenilson.cursojavaintermediario.aula71;
-
-public class MinhaThreadSoma {
-	
-	private String nome;
-	private int[]  nums;
-	private static Calculadora calc = new Calculadora();
-
-}

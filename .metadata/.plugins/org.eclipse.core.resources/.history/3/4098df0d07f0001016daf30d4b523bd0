@@ -1,0 +1,13 @@
+package com.elenilson.cursojavaintermediario.aula75;
+
+public class Aula75 {
+
+	public static void main(String[] args) {
+		
+		String vazia = new String(); //""
+		
+		
+
+	}
+
+}
