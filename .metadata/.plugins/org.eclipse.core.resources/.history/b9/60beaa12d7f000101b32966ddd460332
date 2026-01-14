@@ -1,0 +1,15 @@
+package com.elenilson.cursojavaintermediario.aula75_84;
+
+public class Aula78 {
+
+	public static void main(String[] args) {
+		
+		String ola  = "Olá";
+		String ola2 = "OLÁ";
+		String ola3 = "Olá";
+		
+		System.out.println("Ola equals ola2 = " + ola.equals(ola2));
+
+	}
+
+}

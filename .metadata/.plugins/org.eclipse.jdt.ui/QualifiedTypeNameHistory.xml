@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula44.Animal"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula44.Mamifero"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula44.AnimalEstimacao"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula44.AnimalDomesticado"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula74.labs.CorSemafaro"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula74.labs.ThreadSemaforo"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
