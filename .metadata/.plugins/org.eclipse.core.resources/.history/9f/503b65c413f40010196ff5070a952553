@@ -1,0 +1,69 @@
+package com.elenilson.cursojavaintermediario.aula93;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.temporal.ChronoField;
+import java.time.temporal.ChronoUnit;
+
+public class Aula93DatasJava8 {
+
+	public static void main(String[] args) {
+		
+		// data dd MM yyyy
+		LocalDate agora = LocalDate.now();
+		System.out.println(agora);
+		
+	
+		System.out.println(LocalDate.of(2019, 2, 1));
+		System.out.println(LocalDate.parse("2019-02-01"));
+		
+		System.out.println(agora.plusDays(30));
+		
+		 
+		System.out.println(agora.minus(1, ChronoUnit.MONTHS));
+		
+		
+		System.out.println(agora.getDayOfWeek());
+		System.out.println(agora.getDayOfMonth());
+		System.out.println(agora.getDayOfYear());
+		
+		System.out.println(LocalDate.parse("2026-02-01").isLeapYear());
+		
+		
+		LocalTime hAgora = LocalTime.now();
+		System.out.println(hAgora);
+		
+		System.out.println(LocalTime.of(20, 18));
+		System.out.println(LocalTime.parse("20:18"));
+		
+		System.out.println(hAgora.plusMinutes(50));
+		System.out.println(hAgora.minus(40, ChronoUnit.MINUTES));
+		
+		
+		System.out.println(hAgora.getHour());
+		
+		// data completa = data + hora
+		LocalDateTime agoraCompleto = LocalDateTime.now();
+		System.out.println(agoraCompleto);
+		
+		System.out.println(LocalDateTime.of(2019, 2, 16, 20, 10));
+		System.out.println(LocalDateTime.parse("2019-02-16T20:25:10"));
+		System.out.println(agoraCompleto.plusYears(20));
+		
+		ZoneId fuso= ZoneId.systemDefault();
+		System.out.println(fuso);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

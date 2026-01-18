@@ -12,16 +12,17 @@ public class Aula91 {
 		
 		Date hoje = new Date();
 		
-		//System.out.println(Locale.getDefault());
+		System.out.println(Locale.getDefault());
 		
 		String hojeFormatado = DateFormat.getInstance().format(hoje);
-		//System.out.println(hojeFormatado);
+		System.out.println(hojeFormatado);
 		
 		
-		Locale.setDefault(new Locale("pt", "Brazil"));
+		Locale.setDefault(new Locale("pt", "BR"));
 		
 		hojeFormatado = DateFormat.getInstance().format(hoje);
-		System.out.println(hojeFormatado);		
+		System.out.println(hojeFormatado);	
+		
 		
 		hojeFormatado = DateFormat.getTimeInstance().format(hoje);
 		System.out.println(hojeFormatado);
@@ -57,10 +58,5 @@ public class Aula91 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-			
-
 	}
-
 }

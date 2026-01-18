@@ -32,7 +32,8 @@ public class Aula88 {
 		int minutos  = hoje.get(Calendar.MINUTE);
 		int segundos = hoje.get(Calendar.SECOND);
 		
-		System.out.printf("Hoje é: %02d/%02d/%d %02d:%02d:%02d\n",dia, (mes + 1),  ano, hora, minutos, segundos);		
+		System.out.printf("Hoje é: %02d/%02d/%d %02d:%02d:%02d\n",dia, (mes + 1),  ano, hora, minutos, segundos);	
+		System.out.println();
 	}
 
 }

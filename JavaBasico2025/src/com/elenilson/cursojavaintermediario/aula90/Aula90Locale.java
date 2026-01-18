@@ -17,8 +17,8 @@ public class Aula90Locale {
 		Locale locale = Locale.getDefault();
 		
 		System.out.println(locale);
-		
 		Locale[] locales = locale.getAvailableLocales();
+		/*
 		for(Locale loc: locales) {
 			System.out.println("Nome: " + loc.getDisplayName());
 			System.out.println("Código da língua: " + loc.getLanguage());
@@ -28,7 +28,7 @@ public class Aula90Locale {
 			
 			System.out.println("******************************");
 		}
-		
+		*/
 		Locale br = new Locale("pt", "BR");
 		
 		System.out.println(br);
@@ -48,9 +48,6 @@ public class Aula90Locale {
 		
 		NumberFormat nf3 = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));		
 		System.out.println(nf3.format(5000000000d));
-		
-		
-		
 		
 	}
 

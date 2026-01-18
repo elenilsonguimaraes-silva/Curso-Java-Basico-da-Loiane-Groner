@@ -10,7 +10,7 @@ public class Aula89SimpleDateFormat {
 
 	public static void main(String[] args) {
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MMM/yyyy hh:mm:ss a Z");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MMM/yyyy hh:mm:ss a z");
 		
 		Calendar data = new GregorianCalendar(2010, 5, 4, 14, 32, 25);
 		
@@ -20,9 +20,9 @@ public class Aula89SimpleDateFormat {
 		
 		Date hoje = new Date();
 		
-		System.out.println(sdf.format(hoje));
+		//System.out.println(sdf.format(hoje));
 		
-		String d = sdf.format(hoje);
+		String d = sdf.format(hoje);		
 		
 		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
 		String minhaData = "20/02/2000";

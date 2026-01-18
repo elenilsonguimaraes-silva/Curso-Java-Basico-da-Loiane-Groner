@@ -1,0 +1,25 @@
+package com.elenilson.cursojavaintermediario.aula94;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Aula94DiferencaEntreDatas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void diferencaDataAteJava7() throws ParseException {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		Date primeiraDt = sdf.parse("01/01/2019");
+		Date segundaDt = sdf.parse("01/02/2019");
+		
+		long diffEmMil = Math.abs(segundaDt.getTime() - primeiraDt.getTime());
+		primeirasDt.getTime(); 
+		
+	}
+
+}
