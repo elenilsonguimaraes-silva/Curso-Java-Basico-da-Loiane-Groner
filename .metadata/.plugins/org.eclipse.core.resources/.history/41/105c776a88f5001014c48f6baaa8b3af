@@ -1,0 +1,12 @@
+package com.elenilson.cursojavaintermediario.aula97;
+
+public class Aula97DecimalFormat {
+
+	public static void main(String[] args) {
+		
+		
+		String padrao = "###,###.##";
+
+	}
+
+}
