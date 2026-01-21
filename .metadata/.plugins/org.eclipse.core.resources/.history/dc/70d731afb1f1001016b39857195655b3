@@ -1,9 +1,0 @@
-package com.elenilson.cursojavaintermediario.aula75_84;
-
-public class Pessoa {
-	
-	private int cod;
-	private String nome;
-	private int idade;
-
-}
